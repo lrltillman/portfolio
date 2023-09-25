@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(175, 225, 244);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(116, 205, 239);
+
+}
+
+header h1 {
+    padding: 20px;
+    color: rgb(47, 86, 101);
+    font-size: xx-large;
+    display: inline-block;
+    margin-left: 60px;
+    font-family: goudy old style, garamond, big caslon, times new roman, serif;
+    font-weight: normal;
+}
+
+header h1 span {
+    font-family: fantasy;
+    color: rgb(69, 113, 112);
+
+}
+
+header ul {
+    list-style-type: none;
+    margin-right: 50px;
+
+}
+
+header ul li {
+
+    display: inline-block;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+section {
+    background-color: rgb(116, 205, 239);
+
+}
+
+section h2 {
+    padding-top: 40px;
+    padding-left: 120px;
+    color: rgb(47, 86, 101);
+
+}
+
+section div {
+    padding: 30px;
+}
+
+section img {
+    height: 200px;
+    border: 15px solid rgb(47, 86, 101);
+
+}
+
+.about-me-image {
+    margin-left: 15px;
+
+}
+
+.contact-me-section {
+    display: flex;
+    justify-content: row reverse;
+
+
+}
