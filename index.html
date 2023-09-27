@@ -12,51 +12,64 @@
 
 <body>
     <header class="headerflex">
-        <!-- play with font using css span for uppercase letters  -->
-        <h1>L<span>eah</span> T<span>illman</span></h1>
+        <h1>Leah Tillman</h1>
         <ul>
-            <li><a href="https://github.com/lrltillman" target="_blank">GitHub</a></li>
-            <li>About Me</li>
-            <li>Portfolio</li>
-            <li>Contact Me</li>
+            <li>
+                <a href="https://github.com/lrltillman" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a href="#about-me-section">About Me</a>
+            </li>
+            <li>
+                <a href="#contact-me-section">Contact Me</a>
+            </li>
+            <li>
+                <a href="#portfolio-section">Portfolio</a>
+            </li>
         </ul>
     </header>
+
+    <div>
+        <img class="sassy-nigel" src="./Assets/images/sassy-nigel.jpg" />
+        <!-- add background image here. include height and width parameters -->
+    </div>
+
     <main class="mainflex">
-        <section>
-            <h2>About Me</h2>
-            <div class="about-me-image">
-                <img class="about-me-image" src="./Assets/images/me-and-nigel.jpg"
-                    alt="woman wearing blue sweatshirt smiling while hugging a black and brown dog." />
-            </div>
-            <p>This is a paragraoh about me and my background.</p>
-        </section>
+        <nav id="about-me-section">
+            <section>
+                <h2>About Me</h2>
 
-        <section>
-            <h2>Portfolio</h2>
-            <h4>Click on each item to visit its repository:</h4>
-            <div>
-                <img src="./Assets/images/website-demo.jpg" alt="image of a website homepage" />
-            </div>
-        </section>
+                <p>Hello! My name is Leah Tillman, and I am currently studying coding. Previously, I worked as a
+                    geriatric
+                    social worker, working with Holocaust survivors to help them receive reparations from the German
+                    government, and most rceently hospice care. I love puzzles, music, dogs, and any opportunity to be
+                    creative. Enjoy my portfolio!</p>
+            </section>
+        </nav>
+        <nav id="contact-me-section">
+            <section>
+                <!-- add nav tag here with content inside, link above using link href="" with the not-yet-created id. link by using <nav id="#nameofid"  -->
+                <h2>Contact Me</h2>
+
+                <ul class="ulflex">
+                    <li><b>E-mail:</b> DaBears@PackersSuck.com</li>
+                    <li><b>Github:</b><a href="https://github.com/lrltillman">Click here!</a></li>
+                </ul>
+            </section>
+        </nav>
+        <nav id="portfolio-section">
+            <section>
+                <h2>Portfolio</h2>
+                <div>
+                    <div>
+                        <img src="./Assets/images/website-demo.jpg" alt="image of a website homepage" />
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <!-- needs five portfolio links. can be working links to anywhere.  -->
 
 
-
-        <!-- do not use real contact info  -->
-        <section>
-            <h2>Contact Me</h2>
-            <div>
-                <img src="./Assets/images/mpls-skyline.jpg"
-                    alt="photograph of the minneapolis skyline lit up at night." />
-            </div>
-            <ol class="olflex">
-                <li><b>E-mail:</b> DaBears@PackersSuck.com</li>
-                <li><b>Github:</b><a href="https://github.com/lrltillman">Click here!</a></li>
-            </ol>
-
-            <!-- needs five portfolio links. can be working links to anywhere.  -->
-
-
-        </section>
     </main>
 </body>
 

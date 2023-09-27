@@ -4,17 +4,51 @@ body {
     padding: 20px;
 }
 
-header {
-    background-color: rgb(116, 205, 239);
+
+.sassy-nigel {
+    width: 100%;
     border: 2px solid rgb(47, 86, 101);
     border-radius: 15px;
+    margin-top: 40px;
 
 }
 
-header h1 {
+.headerflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: rgb(116, 205, 239);
+    border: 2px solid rgb(47, 86, 101);
+    border-radius: 15px;
+}
+
+.mainflex {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
+}
+
+.ulflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    z-index: 10;
+
+}
+
+.headersection {
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    z-index: 10;
+}
+
+header h1 {
+
     color: rgb(47, 86, 101);
-    font-size: xx-large;
+    font-size: 50px;
     display: inline-block;
     margin-left: 60px;
     font-family: Trattatello, fantasy;
@@ -26,34 +60,20 @@ header ul {
     list-style-type: none;
     margin-right: 50px;
 
+
 }
 
 header ul li {
 
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
 }
 
-.headerflex {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
 
-.mainflex {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.olflex {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-}
 
 section {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(116, 205, 239);
     border: 2px solid rgb(47, 86, 101);
     border-radius: 15px;
@@ -62,9 +82,19 @@ section {
 }
 
 section h2 {
-    padding-top: 40px;
-    padding-left: 120px;
-    color: rgb(47, 86, 101);
+
+    background-color: rgb(47, 86, 101);
+    color: rgb(116, 205, 239);
+    border: 2px solid rgb(47, 86, 101);
+    border-radius: 15px;
+    margin-top: -30px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+    height: 50px;
+    min-width: 120px;
+    font-weight: lighter;
+    position: relative;
 
 }
 
@@ -80,6 +110,15 @@ section img {
 }
 
 .about-me-image {
+    display: block;
     margin-left: 15px;
+
+}
+
+p {
+    display: block;
+    text-align: center;
+    padding: 20px;
+
 
 }
