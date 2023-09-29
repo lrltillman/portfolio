@@ -7,3 +7,7 @@ As a student, I want prospective employers to see an ongoing showcase of my work
 ## Tools Used
 
 To create this intial deployment of my portfolio, I used HTML and CSS. In HTML, I utilized both semantic and non-semantic tags. In CSS, I utilized flexbox and media queuries. 
+
+[Link to deployed GitHub Pages](https://lrltillman.github.io/portfolio/)
+
+![portfolio demo](./Assets/images/portfolio-demo.jpg)
